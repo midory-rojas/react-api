@@ -21,8 +21,8 @@ function App() {
   return (
     <>
       <div className='container py-5'>
-        <header>
-          <h1>Attrici</h1>
+        <header className="text-center">
+          <h1 className="fw-bold py-3">Attrici</h1>
         </header>
         <main>
           <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3'>
