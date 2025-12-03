@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className='container py-5'>
+      <div className='container'>
         <header className="text-center">
           <h1 className="fw-bold py-3">Attrici</h1>
         </header>

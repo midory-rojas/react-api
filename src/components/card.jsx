@@ -2,7 +2,7 @@ export default function Card({ attrice }) {
     const { name, image, birth_year, nationality, biography, most_famous_movies, awards } = attrice; //destrutturazione
     return (
         <div className="card text-center">
-            <h4 className="card-title text-light">{name}</h4>
+            <h4 className="card-title text-light py-2">{name}</h4>
             <img src={image} className="img-fluid" alt={name} />
             <div className="card-body">
                 <p className="card-text text-light fst-italic">{birth_year} - {nationality}</p>
